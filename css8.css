@@ -1,0 +1,67 @@
+body{
+        font-family: 'Happy Monkey', cursive;
+        color:#fc5a8d;
+        background: linear-gradient(lightblue, #fdfd96);
+}
+#img{
+    border-radius:100px;
+    width:200px;
+    border:4px solid #FFD580;
+}
+p{
+        font-size:18px;
+}
+h1, h2, p {
+        text-shadow:0px 0px 2px black;
+}
+#age {
+        background:#FFD580;
+        padding:5px 10px;
+        border-radius:3px;
+        margin:20px 0px 0px 0px;
+}
+#dob {
+        background:#FFD580;
+        border-radius:3px;
+        margin-top:10px;
+}
+.header, .link{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+}
+#gift1{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+}
+.gtitle{
+        margin-bottom:0px;
+}
+.gimg{
+        width:400px;
+        height:400px;
+        border:4px solid #FFD580;
+        border-radius:10px;
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTgBRe9yh8s3_E-N1TniZ5sWgL6ASNHBZa_g&usqp=CAU");
+        background-size: 400px 400px;
+}
+#happy:hover{
+         background-image:url("https://scontent.fbep2-1.fna.fbcdn.net/v/t1.6435-9/130457695_1422347284628948_9155965408511319545_n.jpg?stp=dst-jpg_p600x600&_nc_cat=107&ccb=1-7&_nc_sid=810d5f&_nc_ohc=SyuGQKEkg9kAX9fkSjN&_nc_ht=scontent.fbep2-1.fna&oh=00_AfDS8c6vZQU09khzRWwpBkmPTY2R0ZfnenuGUFr_W_gpMA&oe=655CC1AE");
+}
+#beauty:hover{
+         background-image:url("https://scontent.fbep2-1.fna.fbcdn.net/v/t39.30808-6/292797689_337940258553079_6729043321491824415_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kIcqezHD4YwAX89MPgH&_nc_ht=scontent.fbep2-1.fna&oh=00_AfBUCurL4omJN7TU04cYtr6zwbA_2KrWtW22RhM9812nGA&oe=653AEA6A");
+}
+#cute:hover{
+         background-image:url("https://i.pinimg.com/564x/b2/ce/33/b2ce336cb1458b910ddf66b6a96abb56.jpg");
+}
+#overload:hover{
+         background-image:url("https://scontent.fbep2-1.fna.fbcdn.net/v/t1.6435-9/67359262_1020859691444378_7479998211013214208_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c2f564&_nc_ohc=F4Vp6Yq7Ut0AX8piDW4&_nc_ht=scontent.fbep2-1.fna&oh=00_AfDKNjDURViFQtVPEw6iuaDbaR52froIs7nEbvIfDLNKPA&oe=655CF194");
+}
+#overload{
+        height:500px;
+        background-size:400px 500px;
+}
+.link{
+        margin-top:80px;
+}
